@@ -217,10 +217,6 @@ export class Trade {
     }
   }
 
-  public getRoute(): Route {
-    return this.route
-  }
-
   /**
    * Get the maximum amount in that can be spent via this trade for the given slippage tolerance
    * @param slippageTolerance tolerance of unfavorable slippage from the execution price of this trade
