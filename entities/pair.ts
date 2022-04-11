@@ -71,7 +71,6 @@ export class Pair {
         }
       }
     }
-    console.log(PAIR_ADDRESS_CACHE)
     return PAIR_ADDRESS_CACHE[tokens[0].address][tokens[1].address]
   }
 
