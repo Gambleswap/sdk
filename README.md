@@ -34,5 +34,3 @@ Run tests
 ```sh
 yarn test
 ```
-
-You should see output like the following:
