@@ -20,9 +20,9 @@ import {
   _1000,
   ChainId,
   url
-} from '../constants'
-import { sqrt, parseBigintIsh } from '../utils'
-import { InsufficientReservesError, InsufficientInputAmountError } from '../errors'
+} from '../src/constants'
+import { sqrt, parseBigintIsh } from '../src/utils'
+import { InsufficientReservesError, InsufficientInputAmountError } from '../src/errors'
 import { Token } from './token'
 import Web3 from 'web3'
 

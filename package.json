@@ -1,7 +1,7 @@
 {
   "name": "@gambleswap/sdk",
   "license": "MIT",
-  "version": "3.0.3",
+  "version": "4.0.1",
   "description": "🛠 An SDK for building applications on top of gambleswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",

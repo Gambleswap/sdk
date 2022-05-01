@@ -5,8 +5,8 @@ import JSBI from 'jsbi'
 import _Big from 'big.js'
 import toFormat from 'toformat'
 
-import { BigintIsh, Rounding, TEN, SolidityType } from '../../constants'
-import { parseBigintIsh, validateSolidityTypeInstance } from '../../utils'
+import { BigintIsh, Rounding, TEN, SolidityType } from '../../src/constants'
+import { parseBigintIsh, validateSolidityTypeInstance } from '../../src/utils'
 import { Fraction } from './fraction'
 
 const Big = toFormat(_Big)

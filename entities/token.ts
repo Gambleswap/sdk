@@ -1,6 +1,6 @@
 import invariant from 'tiny-invariant'
-import { ChainId } from '../constants'
-import { validateAndParseAddress } from '../utils'
+import { ChainId } from '../src/constants'
+import { validateAndParseAddress } from '../src/utils'
 import { Currency } from './currency'
 
 /**
