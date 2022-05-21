@@ -8,7 +8,7 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/gambleswap/sdk.git",
+  "repository": "git://github.com/gambleswap/sdk.git",
   "keywords": [
     "gambleswap",
     "ethereum"
