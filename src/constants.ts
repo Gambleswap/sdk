@@ -22,11 +22,11 @@ export enum Rounding {
   ROUND_UP
 }
 
-export const FACTORY_ADDRESS = '0x0165878A594ca255338adfa4d48449f69242Eb8F'
+export const FACTORY_ADDRESS = "0xFb1d7329A0EffD5aAE3A31c82e90EeED02C8BC88" // "0x0165878A594ca255338adfa4d48449f69242Eb8F"
 
-export const LENDING_ADDRESS = '0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9'
+export const LENDING_ADDRESS = "0x47893140C79ab5D5B6E8603bcD9610d7b39ee45D" //"0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9"
 
-export const GMB_ADDRESS = '0x5FbDB2315678afecb367f032d93F642f64180aa3'
+export const GMB_ADDRESS = "0x53b7D8952c6b32bE3cF0676045172b3596114869" //"0x5FbDB2315678afecb367f032d93F642f64180aa3";
 
 export const INIT_CODE_HASH = '0x548ad168b8988c6ce9e2abbdac5bdf65e89e68000570e99cc49ae450413bb8fd'
 
@@ -42,7 +42,7 @@ export const TEN = JSBI.BigInt(10)
 export const _100 = JSBI.BigInt(100)
 export const _997 = JSBI.BigInt(997)
 export const _1000 = JSBI.BigInt(1000)
-export const url = "http://127.0.0.1:8545";
+export const url = "https://testnet.emerald.oasis.dev"; // "http://127.0.0.1:8545";
 
 export enum SolidityType {
   uint8 = 'uint8',
